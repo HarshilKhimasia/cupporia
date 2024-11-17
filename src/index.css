@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 /* Header Starts Here */
+.nav-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
 header nav ul li .nav-link {
   position: relative;
   z-index: 0;
@@ -59,9 +64,42 @@ header nav ul li .nav-link:hover::before {
 /* Header Ends Here */
 
 /* Main Starts Here */
-main {
+.hero-section {
   background-color: #495e57;
-  height: 800px;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.hero-img-block {
+  background-image: url("./assets/images/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 22px;
+}
+
+.reserve-btn {
+  padding: 10px 20px;
+  background: #f4ce14;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.card-btn {
+  padding: 10px 20px;
+  background: #f4ce14;
+  border-radius: 100px;
+  display: block;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 /* Main Ends Here */
 

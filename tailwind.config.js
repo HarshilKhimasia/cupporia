@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        karla: ["Karla", "sans-serif"], // Correctly defines the "karla" font family
+        karla: ["Karla", "sans-serif"],
+        markazi: ["Markazi Text", "sans-serif"],
+      },
+      textColor: {
+        primary: "#f4ce14",
       },
     },
   },

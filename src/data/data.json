@@ -1,0 +1,30 @@
+{
+  "data": [
+    { "navLink": "Home", "navUrl": "/" },
+    { "navLink": "About", "navUrl": "/about" },
+    { "navLink": "Menu", "navUrl": "/menu" },
+    { "navLink": "Reservations", "navUrl": "/reservations" },
+    { "navLink": "Order Online", "navUrl": "/order-online" },
+    { "navLink": "Login", "navUrl": "/login" }
+  ],
+  "cardDetail": [
+    {
+      "title": "Greek Salad",
+      "price": "$12.99",
+      "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
+      "imgUrl": "/assets/images/salad.jpg"
+    },
+    {
+      "title": "Bruschetta",
+      "price": "$5.99",
+      "description": "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil; made perfect for an evening dinner.",
+      "imgUrl": "/assets/images/bruschetta.jpg"
+    },
+    {
+      "title": "Lemon Dessert",
+      "price": "$5.00",
+      "description": "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
+      "imgUrl": "/assets/images/lemon-dessert.jpg"
+    }
+  ]
+}

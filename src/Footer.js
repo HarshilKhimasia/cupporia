@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <footer className="container mx-auto px-4 py-16 bg-white">
-        <div className="footer-grid">
+      <footer className=" bg-[#edefee]">
+        <div className="container mx-auto px-4 py-16 footer-grid">
           <div>
             <img src={footerLogo} alt="Footer Logo" className="w-44 h-auto" />
           </div>

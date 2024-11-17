@@ -1,63 +1,34 @@
 import logo from "./assets/images/logo.png";
+import { Link, useLocation } from "react-router-dom";
+import devData from "./data/data";
 
 function Header() {
+  let location = useLocation();
+  console.log(devData);
+
   return (
     <header className="container mx-auto px-4 py-4 bg-white">
-      <nav>
-        <ul className="flex items-center justify-between">
+      <nav className="nav-grid">
+        <ul>
           <li>
             <a href="/">
               <img src={logo} alt="Logo" className="w-[258px] h-auto" />
             </a>
           </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold text-lg nav-link active"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold nav-link text-lg"
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold nav-link text-lg"
-            >
-              Menu
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold nav-link text-lg"
-            >
-              Reservations
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold nav-link text-lg"
-            >
-              Order Online
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="text-black font-karla font-semibold nav-link text-lg"
-            >
-              Login
-            </a>
-          </li>
+        </ul>
+        <ul className="flex items-center justify-between">
+          {devData.data.map((el, i) => (
+            <li className="ms-5">
+              <Link
+                to={el.navUrl}
+                className={`text-black font-karla font-semibold text-lg nav-link ${
+                  location.pathname === el.navUrl ? "active" : ""
+                }`}
+              >
+                {el.navLink}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
