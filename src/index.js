@@ -1,10 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "@fontsource/karla"; // Defaults to weight 400
+import "@fontsource/karla/200.css"; // Specify weight
+import "@fontsource/karla/300.css"; // Specify weight
+import "@fontsource/karla/400.css"; // Specify weight
+import "@fontsource/karla/500.css"; // Specify weight
+import "@fontsource/karla/600.css"; // Specify weight
+import "@fontsource/karla/700.css"; // Specify weight
+import "@fontsource/karla/800.css"; // Specify weight
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
