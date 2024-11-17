@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <footer className=" bg-[#edefee]">
-        <div className="container mx-auto px-4 py-16 footer-grid">
+        <div className="container py-24 footer-grid">
           <div>
             <img src={footerLogo} alt="Footer Logo" className="w-44 h-auto" />
           </div>

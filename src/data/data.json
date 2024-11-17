@@ -26,5 +26,43 @@
       "description": "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
       "imgUrl": "/assets/images/lemon-dessert.jpg"
     }
+  ],
+  "testimonailsData": [
+    {
+      "name": "Antony Clifton",
+      "rating": 5,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person1.jpg"
+    },
+    {
+      "name": "Maria Sanchez",
+      "rating": 2,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person2.jpg"
+    },
+    {
+      "name": "Tamika Jackson",
+      "rating": 4,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person3.jpg"
+    },
+    {
+      "name": "Brandon Ming",
+      "rating": 4,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person6.jpg"
+    },
+    {
+      "name": "Kristina Roberts",
+      "rating": 3,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person5.jpg"
+    },
+    {
+      "name": "Marisa Daniels",
+      "rating": 5,
+      "review": "The cozy ambiance at Little Lemon Restaurant perfectly complements their delicious, zesty dishes. A delightful spot for fresh flavors and warm hospitality!",
+      "imgUrl": "/assets/images/person4.jpg"
+    }
   ]
 }

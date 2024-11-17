@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <section className="hero-section relative">
-      <div className="container mx-auto px-4 py-56 hero-grid">
+      <div className="container py-56 hero-grid">
         <div>
           <h1 className="font-markazi text-7xl font-bold text-primary tracking-wider leading-10 mb-3">
             Little Lemon
@@ -25,7 +25,7 @@ function Hero() {
           </Link>
         </div>
 
-        <div className="absolute h-[44rem] w-[32rem] bottom-[-70px] right-44 hero-img-block"></div>
+        <div className="absolute h-[44rem] w-[34rem] bottom-[-70px] right-64 hero-img-block"></div>
       </div>
     </section>
   );

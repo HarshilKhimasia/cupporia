@@ -4,7 +4,7 @@ import cardDetail from "./../data/data";
 function Specials() {
   return (
     <section>
-      <div className="container mx-auto px-4 py-36">
+      <div className="container pt-36 pb-24">
         <div className="flex justify-between items-center mb-14">
           <h2 className="font-markazi text-6xl font-bold">
             This week specails!

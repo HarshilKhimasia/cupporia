@@ -6,7 +6,7 @@ function Header() {
   let location = useLocation();
 
   return (
-    <header className="container mx-auto px-4 py-4 bg-white">
+    <header className="container py-4 bg-white">
       <nav className="nav-grid">
         <ul>
           <li>
