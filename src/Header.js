@@ -4,7 +4,6 @@ import devData from "./data/data";
 
 function Header() {
   let location = useLocation();
-  console.log(devData);
 
   return (
     <header className="container mx-auto px-4 py-4 bg-white">
@@ -18,7 +17,7 @@ function Header() {
         </ul>
         <ul className="flex items-center justify-between">
           {devData.data.map((el, i) => (
-            <li className="ms-5">
+            <li className="ms-5" key={i}>
               <Link
                 to={el.navUrl}
                 className={`text-black font-karla font-semibold text-lg nav-link ${

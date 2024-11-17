@@ -12,7 +12,7 @@ function Hero() {
               Chicago
             </span>
           </h1>
-          <p className="font-karla text-2xl font-bold text-white tracking-wider w-6/12">
+          <p className="font-karla text-2xl font-bold text-white tracking-wider w-9/12">
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>

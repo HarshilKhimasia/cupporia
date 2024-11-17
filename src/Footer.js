@@ -1,5 +1,7 @@
 import footerLogo from "./assets/images/footer-logo.png";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import devData from "./data/data";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -13,54 +15,16 @@ function Footer() {
               Navigation
             </h6>
             <ul>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  Home
-                </a>
-              </li>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  About
-                </a>
-              </li>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  Menu
-                </a>
-              </li>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  Reservations
-                </a>
-              </li>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  Order Online
-                </a>
-              </li>
-              <li className="mb-1">
-                <a
-                  href="/"
-                  className="text-black font-karla font-semibold text-lg"
-                >
-                  Login
-                </a>
-              </li>
+              {devData.data.map((el, i) => (
+                <li className="mb-1" key={i}>
+                  <Link
+                    to={el.navUrl}
+                    className="text-black font-karla font-semibold text-lg"
+                  >
+                    {el.navLink}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div>

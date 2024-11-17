@@ -81,9 +81,14 @@ header nav ul li .nav-link:hover::before {
 
 .reserve-btn {
   padding: 10px 20px;
-  background: #f4ce14;
+  background-color: #f4ce14;
   border-radius: 12px;
   display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background-color: #f4cf14ce;
 }
 
 .card-btn {
@@ -94,6 +99,14 @@ header nav ul li .nav-link:hover::before {
   left: 50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  transition: all 0.3s ease-in;
+}
+.card-btn:hover {
+  background-color: #495e57;
+}
+.card-btn:hover span {
+  transition: all 0.3s ease-in;
+  color: #fff;
 }
 
 .card-img {
