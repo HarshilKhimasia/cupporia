@@ -163,6 +163,9 @@ header nav ul li .nav-link:hover::before {
 .splide__pagination {
   bottom: -45px !important;
 }
+.splide__pagination__page.is-active {
+  background-color: #f4ce14 !important;
+}
 /* Main Ends Here */
 
 /* Footer Starts Here */

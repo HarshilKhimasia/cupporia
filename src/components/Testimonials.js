@@ -29,6 +29,7 @@ function Testimonials() {
     ],
   ];
   return (
+    <section className="testimonials-section">
     <div className="container py-24">
       <Splide
         aria-label="My Favorite Images"
@@ -69,6 +70,7 @@ function Testimonials() {
         ))}
       </Splide>
     </div>
+    </section>
   );
 }
 

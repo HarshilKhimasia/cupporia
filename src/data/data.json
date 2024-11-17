@@ -9,22 +9,58 @@
   ],
   "cardDetail": [
     {
-      "title": "Greek Salad",
-      "price": "$12.99",
-      "description": "The famous Greek salad of crispy lettuce, peppers, olives and our Chicago styled feta cheese, garnished with crunchy garlic, rosemary croutons.",
-      "imgUrl": "/assets/images/salad.jpg"
+      "title": "Caprese Salad",
+      "price": "$10.50",
+      "description": "A delightful combination of ripe tomatoes, fresh mozzarella, and basil, drizzled with balsamic glaze for a fresh and vibrant starter.",
+      "imgUrl": "/assets/images/caprese-salad.jpg"
     },
     {
-      "title": "Bruschetta",
+      "title": "Garlic Bread",
+      "price": "$4.99",
+      "description": "Crispy slices of bread coated with garlic butter and herbs, baked to golden perfection and served warm.",
+      "imgUrl": "/assets/images/garlic-bread.jpg"
+    },
+    {
+      "title": "Chocolate Lava Cake",
+      "price": "$6.50",
+      "description": "An indulgent dessert with a gooey molten chocolate center, served with a scoop of vanilla ice cream.",
+      "imgUrl": "/assets/images/chocolate-lava-cake.jpg"
+    },
+    {
+      "title": "Caesar Salad",
+      "price": "$9.99",
+      "description": "Crisp romaine lettuce tossed with creamy Caesar dressing, Parmesan cheese, and crunchy croutons.",
+      "imgUrl": "/assets/images/caesar-salad.jpg"
+    },
+    {
+      "title": "Stuffed Mushrooms",
+      "price": "$7.99",
+      "description": "Mushrooms filled with a savory blend of cheese, herbs, and breadcrumbs, baked until golden and delicious.",
+      "imgUrl": "/assets/images/stuffed-mushrooms.jpg"
+    },
+    {
+      "title": "Tiramisu",
       "price": "$5.99",
-      "description": "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil; made perfect for an evening dinner.",
-      "imgUrl": "/assets/images/bruschetta.jpg"
+      "description": "A classic Italian dessert with layers of coffee-soaked ladyfingers, mascarpone cream, and a dusting of cocoa powder.",
+      "imgUrl": "/assets/images/tiramisu.jpg"
     },
     {
-      "title": "Lemon Dessert",
-      "price": "$5.00",
-      "description": "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
-      "imgUrl": "/assets/images/lemon-dessert.jpg"
+      "title": "Garden Fresh Pizza",
+      "price": "$14.99",
+      "description": "A thin-crust pizza topped with a medley of fresh vegetables, mozzarella, and a zesty tomato sauce.",
+      "imgUrl": "/assets/images/garden-pizza.jpg"
+    },
+    {
+      "title": "Spinach Artichoke Dip",
+      "price": "$6.50",
+      "description": "A creamy and cheesy dip with spinach and artichokes, served with crispy pita chips.",
+      "imgUrl": "/assets/images/spinach-dip.jpg"
+    },
+    {
+      "title": "Berry Cheesecake",
+      "price": "$7.50",
+      "description": "A rich and creamy cheesecake topped with a mix of fresh berries and a hint of mint.",
+      "imgUrl": "/assets/images/berry-cheesecake.jpg"
     }
   ],
   "testimonailsData": [
