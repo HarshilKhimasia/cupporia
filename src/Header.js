@@ -11,9 +11,9 @@ function Header() {
       <nav className="nav-grid">
         <ul>
           <li>
-            <a href="/">
+            <Link to={"/"}>
               <img src={logo} alt="Logo" className="w-[258px] h-auto" />
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="flex items-center justify-between">
