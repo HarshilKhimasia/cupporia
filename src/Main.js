@@ -18,7 +18,7 @@ function Main() {
           <div className="container pt-36 pb-24">
             <div className="flex justify-between items-center mb-14">
               <h2 className="font-markazi text-6xl font-bold">
-                This week specails!
+                This week specials!
               </h2>
               <Link to={"/menu"}>
                 <div className="reserve-btn">

@@ -3,7 +3,7 @@
     { "navLink": "Home", "navUrl": "/" },
     { "navLink": "About", "navUrl": "/about" },
     { "navLink": "Menu", "navUrl": "/menu" },
-    { "navLink": "Reservations", "navUrl": "/reservations" },
+    { "navLink": "Table Booking", "navUrl": "/table-booking" },
     { "navLink": "Order Online", "navUrl": "/order-online" },
     { "navLink": "Login", "navUrl": "/login" }
   ],
