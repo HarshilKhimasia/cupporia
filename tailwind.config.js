@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}", ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -8,7 +8,7 @@ module.exports = {
         markazi: ["Markazi Text", "sans-serif"],
       },
       textColor: {
-        primary: "#f4ce14",
+        primary: "#ff4d26",
       },
     },
     container: {

@@ -17,14 +17,14 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f4ce14;
+  background: #ff4d26;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffe356;
+  background: #ff4d26;
 }
 
 /* Header Starts Here */
@@ -40,7 +40,7 @@ header nav ul li .nav-link {
 }
 
 header nav ul li .nav-link.active {
-  color: #f4ce14;
+  color: #ff4d26;
 }
 
 header nav ul li .nav-link.active::before {
@@ -52,12 +52,12 @@ header nav ul li .nav-link.active::before {
   left: -25%;
   top: -40%;
   z-index: -1;
-  background-color: #495e57;
+  background-color: #3e2723;
   border-radius: 10px;
 }
 
 header nav ul li .nav-link:hover {
-  color: #f4ce14;
+  color: #ff4d26;
 }
 
 header nav ul li .nav-link::before {
@@ -69,7 +69,7 @@ header nav ul li .nav-link::before {
   top: -40%;
   z-index: -1;
   opacity: 0;
-  background-color: #495e57;
+  background-color: #3e2723;
   border-radius: 10px;
   transition: all 0.3s ease-out;
 }
@@ -83,14 +83,15 @@ header nav ul li .nav-link:hover::before {
   left: -25%;
   top: -40%;
   z-index: -1;
-  background-color: #495e57;
+  background-color: #3e2723;
   border-radius: 10px;
 }
 /* Header Ends Here */
 
 /* Main Starts Here */
 .hero-section {
-  background-color: #495e57;
+  background-color: #3e2723;
+  box-shadow: inset 0px 20px 20px 12px #00000061;
 }
 .hero-grid {
   display: grid;
@@ -98,6 +99,7 @@ header nav ul li .nav-link:hover::before {
 }
 .hero-img-block {
   background-image: url("./assets/images/hero-img.jpg");
+  box-shadow: inset 0px 0px 17px 15px #101010f2;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -106,7 +108,7 @@ header nav ul li .nav-link:hover::before {
 
 .reserve-btn {
   padding: 10px 20px;
-  background-color: #f4ce14;
+  background-color: #ff4d26;
   border-radius: 12px;
   display: inline-block;
   transition: all 0.3s ease;
@@ -118,7 +120,7 @@ header nav ul li .nav-link:hover::before {
 
 .card-btn {
   padding: 10px 20px;
-  background: #f4ce14;
+  background: #ff4d26;
   border-radius: 100px;
   display: block;
   left: 50%;
@@ -141,7 +143,7 @@ header nav ul li .nav-link:hover::before {
 }
 
 .testimonials-section {
-  background-color: #495e57;
+  background-color: #3e2723;
 }
 
 .cirlceProfile {
@@ -153,7 +155,7 @@ header nav ul li .nav-link:hover::before {
   box-shadow: inset 0px 0px 11px 3px #6e6e6e;
   border-radius: 100px;
   top: -80px;
-  border: 8px solid #f4ce14;
+  border: 8px solid #ff4d26;
   left: 50%;
   transform: translateX(-50%);
   background-repeat: no-repeat;
@@ -164,7 +166,7 @@ header nav ul li .nav-link:hover::before {
   bottom: -45px !important;
 }
 .splide__pagination__page.is-active {
-  background-color: #f4ce14 !important;
+  background-color: #ff4d26 !important;
 }
 /* Main Ends Here */
 
