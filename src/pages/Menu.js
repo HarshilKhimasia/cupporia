@@ -6,7 +6,7 @@ function Menu() {
   return (
     <>
       <Helmet>
-        <title>Menu | Little Lemon</title>
+        <title>Menu | Cupporia</title>
       </Helmet>
       <main>
         <section>

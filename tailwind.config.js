@@ -10,6 +10,9 @@ module.exports = {
       textColor: {
         primary: "#ff4d26",
       },
+      colors: {
+        primary: "#ff4d26",
+      },
     },
     container: {
       center: true,

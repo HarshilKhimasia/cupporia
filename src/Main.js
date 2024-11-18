@@ -9,7 +9,7 @@ function Main() {
   return (
     <>
       <Helmet>
-        <title>Little Lemon</title>
+        <title>Cupporia</title>
       </Helmet>
       <main>
         <Hero />

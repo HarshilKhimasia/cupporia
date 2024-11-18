@@ -9,6 +9,42 @@
   ],
   "cardDetail": [
     {
+      "title": "Espresso",
+      "price": "$3.00",
+      "description": "A rich and bold shot of coffee, perfect for those who love intense flavors and a quick pick-me-up.",
+      "imgUrl": "/assets/images/espresso.jpg"
+    },
+    {
+      "title": "Latte",
+      "price": "$4.50",
+      "description": "A creamy blend of espresso and steamed milk, topped with a layer of velvety foam.",
+      "imgUrl": "/assets/images/latte.jpg"
+    },
+    {
+      "title": "Cappuccino",
+      "price": "$4.00",
+      "description": "A perfect balance of espresso, steamed milk, and foam, sprinkled with a dash of cocoa powder.",
+      "imgUrl": "/assets/images/cappuccino.jpg"
+    },
+    {
+      "title": "Americano",
+      "price": "$3.50",
+      "description": "A smooth, diluted espresso offering a milder coffee flavor with a robust aroma.",
+      "imgUrl": "/assets/images/americano.jpg"
+    },
+    {
+      "title": "Mocha",
+      "price": "$4.75",
+      "description": "A delightful fusion of espresso, chocolate, and steamed milk, topped with whipped cream.",
+      "imgUrl": "/assets/images/mocha.jpg"
+    },
+    {
+      "title": "Cold Brew",
+      "price": "$4.25",
+      "description": "A refreshing and smooth coffee brewed slowly with cold water, served over ice.",
+      "imgUrl": "/assets/images/cold-brew.jpg"
+    },
+    {
       "title": "Caprese Salad",
       "price": "$10.50",
       "description": "A delightful combination of ripe tomatoes, fresh mozzarella, and basil, drizzled with balsamic glaze for a fresh and vibrant starter.",
